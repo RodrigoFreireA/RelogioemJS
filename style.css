@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('sua-imagem.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-image: url('/image/God-of-War-Ragnarok-2.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
     display: flex;
