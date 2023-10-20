@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Partiu Casa</title>
+</head>
+
+<body>
+    <div class="clock">
+        <h2>Horário Atual</h2>
+        <div id="current-time"></div>
+    </div>
+
+    <div class="container">
+        <div class="clock2">
+            <h2>Calcule quantas horas faltam para vc estar livre</h2>
+            <input type="datetime-local" id="target-time">
+            <div id="countdown">
+                <span>Dias</span>
+                <span>Horas</span>
+                <span>Minutos</span>
+                <span>Segundos</span>
+            </div>
+            <div class="button">
+                <button id="show-gif" class="custom-button">SAIR</button> <!-- Botão vermelho personalizado -->
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <div id="gif-container" style="display: none;">
+            <img src="/image/picapau.gif" alt="GIF de exemplo">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

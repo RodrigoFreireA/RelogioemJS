@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('sua-imagem.jpg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente para destacar o relógio */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+}
+
+h2 {
+    color: #333;
+}
+
+
+/* Estilize o input */
+input[type="datetime-local"] {
+    width: 45%; /* Preenche 100% da largura do contêiner */
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilize o input quando estiver em foco */
+input[type="datetime-local"]:focus {
+    border-color: #ff0000; /* Cor vermelha quando em foco */
+    outline: none;
+}
+
+.clock2{
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semitransparente para destacar o relógio */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 20px;
+    width: 400px;
+}
+
+#container {
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 20px; /* Aumentar o tamanho da div de fundo */
+    max-width: 900px; /* Largura máxima mantida */
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    }
+
+#countdown span {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 10px;
+}
+#countdown-container {
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    padding: 20px; /* Aumentar o tamanho da div de fundo */
+    max-width: 300px; /* Largura máxima mantida */
+}
+
+#countdown span:first-child {
+    margin-left: 0;
+}
+
+#countdown span:last-child {
+    margin-right: 0;
+}
+
+.custom-button {
+    background-color: #ff0000; /* Vermelho */
+    color: #fff; /* Texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+.custom-button:hover {
+    background-color: #cc0000; /* Vermelho mais escuro no hover */
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    z-index: 1;
+}
+
+#gif-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px;
+}
