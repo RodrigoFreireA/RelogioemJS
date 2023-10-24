@@ -24,7 +24,6 @@ h2 {
     color: #333;
 }
 
-
 /* Estilize o input */
 input[type="datetime-local"] {
     width: 45%; /* Preenche 100% da largura do contêiner */
